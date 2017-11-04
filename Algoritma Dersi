@@ -1,0 +1,141 @@
+Ekrana döngüleri kullanarak Sayi yazdirma
+#include <stdio.h>
+#include <conio.h>
+
+main(){
+int sinir=5,bosluk=1;
+for (int i=0; i<5; i++)
+{
+for (int a=0; a<bosluk; a++)
+	printf (" ");
+for (int b=sinir; b>=1; b--)
+	printf ("%d", b);
+for (int c=1; c<=sinir; c++)
+	printf ("%d", c);
+	
+	printf ("\n");
+	sinir--;
+	bosluk++;
+}
+getch();
+}
+------------------------------------------------------------------------------------------------------------------------------------------
+#include <stdio.h>
+#include <conio.h>
+
+main(){
+int sinir=5,bosluk=1;
+for (int i=0; i<5; i++)
+{
+for (int a=0; a<bosluk; a++)
+	printf (" ");
+for (int c=1; c<=sinir; c++)
+	printf ("%d", c);
+
+	
+	printf ("\n");
+	sinir--;
+	bosluk++;
+}
+
+		
+bosluk=5;
+int bas=5;
+for (int i=0; i<5; i++)
+
+{
+for (int a=0; a<bosluk; a++)
+	printf (" ");
+for (int c=bas; c<=5; c++)
+	printf ("%d", c);
+
+	
+	printf ("\n");
+	bas--;
+	bosluk--;
+}
+
+getch();
+}
+--------------------------------------------------------------------------------------------------------------------
+Ekrana çeşitli şekillerde yıldız yazdırma
+#include <stdio.h>
+#include <conio.h>
+
+main(){
+int sinir=5,bosluk=1;
+for (int i=0; i<5; i++)
+{
+for (int a=0; a<bosluk; a++)
+	printf (" ");
+for (int c=1; c<=sinir; c++)
+	printf ("%d", c);
+
+	
+	printf ("\n");
+	sinir--;
+	bosluk++;
+}
+
+		
+bosluk=5;
+int bas=5;
+for (int i=0; i<5; i++)
+
+{
+for (int a=0; a<bosluk; a++)
+	printf (" ");
+for (int c=bas; c<=5; c++)
+	printf ("%d", c);
+
+	
+	printf ("\n");
+	bas--;
+	bosluk--;
+}
+
+getch();
+}
+#include <stdio.h>
+#include <conio.h>
+
+main ()
+{
+
+
+int adet=9;
+int bosluk=1;
+
+for(int i=0; i<5; i++)
+{
+	for(int a=0; a<bosluk; a++)
+	  printf(" ");
+	for(int j=0; j<adet; j++)
+	printf ("*");
+	  
+	
+	
+adet-=2;
+bosluk+=1;
+printf ("\n");
+}
+
+
+adet=1;
+bosluk=5;
+
+for(int i=0; i<5; i++)
+{
+	for(int a=0; a<bosluk; a++)
+	  printf(" ");
+	for(int j=0; j<adet; j++)
+	printf ("*");
+	  
+	
+	
+adet+=2;
+bosluk-=1;
+printf ("\n");
+}
+getch();
+}
